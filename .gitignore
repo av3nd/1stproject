@@ -1,0 +1,40 @@
+config:
+
+git config --global user.email "avendtabdar@gmail.com"
+git config --global user.name "av3nd"
+
+
+to add files to staging arera
+git add filename
+git add file1name file2name
+git add .
+
+to commit the changes
+git commit -m "message"
+
+git log ---> view commit history
+git --oneline    ----> view in one line
+
+if you want to change your modified file to pervious unmodified file
+git checkout (first file code number)
+
+again if you want to return to the modified file
+git checkout master
+
+
+add orgin 
+copy paste the.... git remote add origin https://git..... link
+
+push our code to github
+git push origin master
+
+to clone our repository
+git clone (repository link from git)
+
+To navigate to your home directory, use "cd" or "cd ~"
+To navigate up one directory level, use "cd .."
+To navigate to the previous directory (or back), use "cd -"
+To navigate into the root directory, use "cd /"
+
+
+git diff --staged .. to see the changes
